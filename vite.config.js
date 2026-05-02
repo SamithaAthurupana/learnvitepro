@@ -7,7 +7,6 @@ export default defineConfig({
 
   plugins: [
       tailwindcss(),
-      require('flowbite/plugin-windicss'),
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
